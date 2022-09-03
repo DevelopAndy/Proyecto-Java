@@ -16,5 +16,10 @@ public class CuentaCorriente extends Cuenta {
 	public void depositar(double valor) {
 		super.saldo += valor;
 	}
+	
+	@Override
+	public String toString() {
+	    return "CuentaCorriente, " + super.toString();
+	}
 
 }

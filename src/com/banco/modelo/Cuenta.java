@@ -95,5 +95,10 @@ public abstract class Cuenta {
 		}
 		return false;
 	}
+	
+	@Override
+	public String toString() {
+		return "Numero: " +this.numero+", Agencia: "+this.agencia;
+	}
 
 }

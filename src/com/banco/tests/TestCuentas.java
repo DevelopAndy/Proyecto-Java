@@ -14,14 +14,12 @@ public class TestCuentas {
 		ca.setSaldo(500);
 		
 		try {
-			cc.retirar(1500);
+			cc.retirar(800);
 		} catch (SaldoInsuficienteException e) {
 			e.printStackTrace();
 		}
 		
-		cc.transferir(1500, ca);
-		
-		System.out.println(cc.getSaldo());
-		System.out.println(ca.getSaldo());
+		System.out.println(cc);
+		System.out.println(ca);
 	}
 }
