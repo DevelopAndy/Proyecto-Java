@@ -1,3 +1,4 @@
+package com.banco.modelo;
 
 public class Administrador extends Empleado implements Autenticable {
 

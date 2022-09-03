@@ -1,3 +1,6 @@
+package com.banco.tests;
+import com.banco.modelo.Empleado;
+import com.banco.modelo.Gerente;
 
 public class TestEmpleado {
 	

@@ -1,3 +1,6 @@
+package com.banco.tests;
+import com.banco.modelo.Gerente;
+import com.banco.modelo.SistemaInterno;
 
 public class TestSistema {
 

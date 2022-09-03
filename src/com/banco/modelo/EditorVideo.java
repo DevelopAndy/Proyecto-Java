@@ -1,5 +1,6 @@
+package com.banco.modelo;
 
-public class Designer extends Empleado{
+public class EditorVideo extends Empleado {
 
 	@Override
 	public double getBonificacion() {

@@ -1,3 +1,4 @@
+package com.banco.modelo;
 
 public interface Autenticable {
 

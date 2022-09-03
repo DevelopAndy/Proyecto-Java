@@ -1,3 +1,7 @@
+package com.banco.tests;
+import com.banco.modelo.CuentaAhorros;
+import com.banco.modelo.CuentaCorriente;
+import com.banco.modelo.SaldoInsuficienteException;
 
 public class TestCuentas {
 

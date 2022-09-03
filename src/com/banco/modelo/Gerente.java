@@ -1,3 +1,4 @@
+package com.banco.modelo;
 public class Gerente extends Empleado implements Autenticable {
 
     public double getBonificacion() {

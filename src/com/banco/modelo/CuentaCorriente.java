@@ -1,3 +1,4 @@
+package com.banco.modelo;
 
 public class CuentaCorriente extends Cuenta {
 	

@@ -1,3 +1,8 @@
+package com.banco.tests;
+import com.banco.modelo.ControlBonificacion;
+import com.banco.modelo.Designer;
+import com.banco.modelo.EditorVideo;
+import com.banco.modelo.Gerente;
 
 public class TestReferencias {
 

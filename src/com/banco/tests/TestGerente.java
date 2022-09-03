@@ -1,3 +1,5 @@
+package com.banco.tests;
+import com.banco.modelo.Gerente;
 
 public class TestGerente {
 
