@@ -9,7 +9,13 @@ public class TestCuentas {
 		cc.setSaldo(1000);
 		ca.setSaldo(500);
 		
-		cc.transferir(500, ca);
+		try {
+			cc.retirar(1500);
+		} catch (SaldoInsuficienteException e) {
+			e.printStackTrace();
+		}
+		
+		cc.transferir(1500, ca);
 		
 		System.out.println(cc.getSaldo());
 		System.out.println(ca.getSaldo());
