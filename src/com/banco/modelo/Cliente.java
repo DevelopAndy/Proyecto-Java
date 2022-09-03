@@ -1,4 +1,12 @@
 package com.banco.modelo;
+
+/**
+ * Clase que representa a un cliente en nuestro banco
+ * 
+ * @author Andy
+ *@version 1.0
+ *
+ */
 public class Cliente implements Autenticable {
 
     private String nombre;
