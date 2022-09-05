@@ -100,5 +100,19 @@ public abstract class Cuenta {
 	public String toString() {
 		return "Numero: " +this.numero+", Agencia: "+this.agencia;
 	}
+	
+	@Override
+	public boolean equals(Object ref) {
+		
+		Cuenta otra = (Cuenta) ref;
+		
+		if(this.agencia != otra.agencia) {
+			return false;
+		} 
+		if (this.numero != otra.numero) {
+			return false;
+		}
+		return true;
+	}
 
 }
